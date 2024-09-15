@@ -7,6 +7,7 @@
   --paragraph-color: #777;
   --transition-durection: 0.75s;
 }
+
 /* Global Rules */
 * {
   -webkit-box-sizing: border-box;
@@ -30,7 +31,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-/* kleine screen */
+/* small screen */
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -48,6 +49,7 @@ body {
     width: 1170px;
   }
 }
+
 /* Components */
 .special-heading {
   color: #ebeced;
@@ -413,7 +415,6 @@ body {
     font-size: 25px;
   }
 }
-
 .contact .info .social i:first-child:hover {
   color: #c4302b;
 }

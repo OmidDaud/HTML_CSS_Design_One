@@ -405,6 +405,7 @@ body {
   display: flex;
   font-size: 14px;
   justify-content: center;
+  margin-top: 12px;
 }
 .contact .info .social i {
   margin-left: 7px;

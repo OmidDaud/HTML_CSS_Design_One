@@ -391,6 +391,7 @@ body {
   font-weight: 800;
   letter-spacing: -2px;
   margin-bottom: 15px;
+  padding: 0 15px;
   color: var(--secondary-color);
 }
 .contact .info .link {
@@ -418,7 +419,6 @@ body {
 .contact .info .social i:first-child:hover {
   color: #c4302b;
 }
-
 .contact .info .social i:nth-child(2):hover {
   color: #2f55a4;
 }
